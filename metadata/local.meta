@@ -1,0 +1,16 @@
+[app/ui]
+version = 8.1.0
+modtime = 1679314601.599041500
+
+[app/launcher]
+version = 8.1.0
+modtime = 1679314601.609041100
+
+[views/manufacturing_process_dashboard]
+owner = nobody
+version = 8.1.0
+modtime = 1679321157.055862900
+
+[nav/default]
+version = 8.1.0
+modtime = 1679315064.424701400

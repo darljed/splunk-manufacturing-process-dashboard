@@ -1,0 +1,124 @@
+/* Splunk custom  */
+
+.main-section-body.dashboard-body, .panel-body {
+    background: #333;
+}
+
+.dashboard-title {
+    color: #fff;
+}
+
+/* Splunk Custom End */
+
+.process-control {
+    background: #1C1717;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.kpi-handle {
+    height: 100px;
+}
+
+.process-control-handle {
+    height: 150px;
+    padding-top: 25px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.pc-item-mark {
+    position: relative;
+    width: 13%;
+}
+
+.pc-item-title h3 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #ffc107;
+}
+
+.pc-item-arrow {
+    padding: 10px;
+}
+
+.pc-item-arrow-item {
+    background: dodgerblue;
+    height: 50px;
+}
+
+.pc-item-arrow-item.arrow-top {
+    transform: skew(15deg);
+}
+.pc-item-arrow-item.arrow-bot {
+    transform: skew(-15deg);
+}
+
+.pc-item-icon {
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -18px;
+    left: calc(50% - 30px);
+    border: 2px solid #1c1717;
+}
+
+.pc-item-icon p {
+    font-size: 3em;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+}
+
+.pc-item-content-master{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    z-index: 99;
+}
+
+h4.pc-item-content {
+    font-size: 4em;
+    color: #fff;
+    line-height: 1em;
+    text-align: center;
+}
+
+.kpi-handle {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.kpi-handle-item {
+    width: calc(13% - 20px);
+    height: 100px;
+    padding: 0 10px 0 10px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.kpi-item {
+    height: 20px;
+    background: #000;
+    margin-top: 5px;
+    border-radius: 9px;
+}
+
+.red {
+    background: #ef5350;
+}
+.amber {
+    background: #ffa726;
+}
+.green {
+    background: #66bb6a;
+}

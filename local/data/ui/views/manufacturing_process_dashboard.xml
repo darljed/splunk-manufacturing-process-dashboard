@@ -1,0 +1,169 @@
+<dashboard stylesheet="style.css,fontawesome/css/fontawesome.min.css" script="script.js,fontawesome/js/fontawesome.min.js">
+  <label>Manufacturing Process Dashboard</label>
+  <row>
+    <html>
+      <div class="section">
+        <div class="process-control">
+          <div class="kpi-handle">
+            
+            <div class="kpi-handle-item">
+              <div class="kpi-item red"></div>
+              <div class="kpi-item amber"></div>
+              <div class="kpi-item green"></div>
+            </div>
+            
+            <div class="kpi-handle-item">
+              <div class="kpi-item red"></div>
+              <div class="kpi-item green"></div>
+            </div>
+            
+            <div class="kpi-handle-item">
+              <div class="kpi-item amber"></div>
+              <div class="kpi-item green"></div>
+            </div>
+            
+            <div class="kpi-handle-item">
+              <div class="kpi-item green"></div>
+            </div>
+            
+            <div class="kpi-handle-item">
+              <div class="kpi-item green"></div>
+              <div class="kpi-item green"></div>
+            </div>
+            
+            <div class="kpi-handle-item">
+              <div class="kpi-item amber"></div>
+              <div class="kpi-item red"></div>
+            </div>
+            
+            <div class="kpi-handle-item">
+              <div class="kpi-item green"></div>
+            </div>
+            
+          </div>
+          <div class="process-control-handle">
+            
+            <div class="pc-item-mark">
+              <div class="pc-item-arrow">
+                <div class="pc-item-arrow-item arrow-top amber"></div>
+                <div class="pc-item-arrow-item arrow-bot amber"></div>
+              </div>
+              <div class="pc-item-icon">
+                <p><i class="icon icon-lightning"></i></p>
+              </div>
+              <div class="pc-item-content-master">
+                <h4 class="pc-item-content">80</h4>
+              </div>
+              <div class="pc-item-title">
+                <h3>Lorem Ipsum</h3>
+              </div>
+            </div>
+            
+            
+            <div class="pc-item-mark">
+              <div class="pc-item-arrow">
+                <div class="pc-item-arrow-item arrow-top"></div>
+                <div class="pc-item-arrow-item arrow-bot"></div>
+              </div>
+              <div class="pc-item-icon">
+                <p><i class="icon icon-bell"></i></p>
+              </div>
+              <div class="pc-item-content-master">
+                <h4 class="pc-item-content">97</h4>
+              </div>
+              <div class="pc-item-title">
+                <h3>Lorem Ipsum Sit Amet Dolor 123</h3>
+              </div>
+            </div>
+            
+            
+            <div class="pc-item-mark">
+              <div class="pc-item-arrow">
+                <div class="pc-item-arrow-item arrow-top green"></div>
+                <div class="pc-item-arrow-item arrow-bot green"></div>
+              </div>
+              <div class="pc-item-icon">
+                <p><i class="icon icon-bookmark"></i></p>
+              </div>
+              <div class="pc-item-content-master">
+                <h4 class="pc-item-content">100</h4>
+              </div>
+              <div class="pc-item-title">
+                <h3>Lorem Ipsum</h3>
+              </div>
+            </div>
+            
+            
+            <div class="pc-item-mark">
+              <div class="pc-item-arrow">
+                <div class="pc-item-arrow-item arrow-top"></div>
+                <div class="pc-item-arrow-item arrow-bot"></div>
+              </div>
+              <div class="pc-item-icon">
+                <p><i class="icon icon-bulb"></i></p>
+              </div>
+              <div class="pc-item-content-master">
+                <h4 class="pc-item-content">100</h4>
+              </div>
+              <div class="pc-item-title">
+                <h3>Lorem Ipsum Sit Amet 123</h3>
+              </div>
+            </div>
+            
+            
+            <div class="pc-item-mark">
+              <div class="pc-item-arrow">
+                <div class="pc-item-arrow-item arrow-top"></div>
+                <div class="pc-item-arrow-item arrow-bot"></div>
+              </div>
+              <div class="pc-item-icon">
+                <p><i class="icon icon-check"></i></p>
+              </div>
+              <div class="pc-item-content-master">
+                <h4 class="pc-item-content">100</h4>
+              </div>
+              <div class="pc-item-title">
+                <h3>Lorem Ipsum Sit Amet Dolor</h3>
+              </div>
+            </div>
+            
+            
+            <div class="pc-item-mark">
+              <div class="pc-item-arrow">
+                <div class="pc-item-arrow-item arrow-top red"></div>
+                <div class="pc-item-arrow-item arrow-bot red"></div>
+              </div>
+              <div class="pc-item-icon">
+                <p><i class="icon icon-gear"></i></p>
+              </div>
+              <div class="pc-item-content-master">
+                <h4 class="pc-item-content">52</h4>
+              </div>
+              <div class="pc-item-title">
+                <h3>Lorem Ipsum Sit</h3>
+              </div>
+            </div>
+            
+            
+            <div class="pc-item-mark">
+              <div class="pc-item-arrow">
+                <div class="pc-item-arrow-item arrow-top"></div>
+                <div class="pc-item-arrow-item arrow-bot"></div>
+              </div>
+              <div class="pc-item-icon">
+                <p><i class="icon icon-flag"></i></p>
+              </div>
+              <div class="pc-item-content-master">
+                <h4 class="pc-item-content">99</h4>
+              </div>
+              <div class="pc-item-title">
+                <h3>Lorem Ipsum Sit Amet</h3>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </html>
+  </row>
+</dashboard>
