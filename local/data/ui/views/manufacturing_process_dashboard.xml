@@ -3,6 +3,9 @@
   <row>
     <panel>
       <html>
+      <div class="custom-title-header">
+        <h2>Manufacturing Process Dashboard</h2>
+      </div>
       <div class="section">
         <div class="process-control">
           <div class="process-control-handle">
@@ -414,13 +417,12 @@
           <div class="sidebar-content">
             
             <div class="content-item hide" id="sidecontent2">
-              <h3 class="content-header">Sub Process Logs</h3>
+              <h3 class="content-header">Log Details</h3>
               <div id="table_content"/>
             </div>
             <div class="content-item" id="sidecontent1">
-              <h3 class="content-header">Sub Processes</h3>
+              <h3 class="content-header">Sub Processes: <span id="kpi_title">KPI Title</span></h3>
               <div class="side-content-kpi">
-                <p class="kpi-title">KPI Title</p>
                 <div class="sc-item">
                   
                   <div class="sc-item-metrics">

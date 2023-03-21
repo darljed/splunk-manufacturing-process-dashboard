@@ -2,10 +2,14 @@
     --red: #e49997;
     --amber: #d0af7f;
     --green: #82b685;
-    --side-height: 40vh;
+    --side-height: 30vh;
 }
 
 /* Splunk custom  */
+
+div[data-view="views/shared/appbar/Master"] {
+    display: none;
+}
 
 .main-section-body.dashboard-body, .panel-body, html, body {
     background: #111;
@@ -43,19 +47,35 @@ table.table tbody td {
     background: var(--green) !important;
 }
 
+.custom-title-header {
+    position: fixed;
+    top: 35px;
+    left: 0;
+    right: 0;
+    background: black;
+    height: 55px;
+}
+
+.custom-title-header h2 {
+    font-size: 2em;
+    margin: 17px;
+    margin-right: 45px;
+    font-weight: 900;
+    color: #cfc359;
+    text-align: right;
+}
+
 .section {
     margin-top: 10px;
 }
 
 .process-control {
     background: #1C1717;
-    min-height: 200px;
-    padding: 20px;
+    min-height: 160px;
 }
 
 
 .process-control-handle {
-    height: 150px;
     padding-top: 25px;
     margin-top: 5px;
     display: flex;
@@ -76,7 +96,7 @@ table.table tbody td {
 }
 
 .pc-item-arrow {
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
 }
 
 .pc-item-mark:hover .pc-item-arrow-item {
@@ -89,7 +109,7 @@ table.table tbody td {
 
 .pc-item-arrow-item {
     background: #3a526a;
-    height: 50px;
+    height: 35px;
 }
 
 .pc-item-arrow-item.arrow-top {
@@ -100,21 +120,21 @@ table.table tbody td {
 }
 
 .pc-item-icon {
-    width: 60px;
-    height: 60px;
+    width: 44px;
+    height: 44px;
     background: #fff;
     border-radius: 50%;
     position: absolute;
     top: -18px;
-    left: calc(50% - 30px);
+    left: calc(50% - 22px);
     border: 2px solid #1c1717;
 }
 
 .pc-item-icon p {
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     position: absolute;
-    top: 20px;
+    top: 12px;
     width: 100%;
 }
 
@@ -126,10 +146,11 @@ table.table tbody td {
 }
 
 h4.pc-item-content {
-    font-size: 4em;
+    font-size: 3em;
     color: #fff;
     line-height: 1em;
     text-align: center;
+    margin-top: -14px;
 }
 
 div#sidecontent1 .content-header {
@@ -137,7 +158,8 @@ div#sidecontent1 .content-header {
     color: #69eee3;
 }
 h3.content-header {
-    color: #cfcaca;
+    font-size: 14pt;
+    color: #69eee3;
 }
 /* infra  */
 .infra-diagram {
@@ -153,7 +175,7 @@ h3.content-header {
 }
 
 .application-item {
-    width: 100px;
+    width: 150px;
     height: 50px;
     background: #000;
     margin: 3px;
@@ -163,7 +185,7 @@ h3.content-header {
 
 .application {
     padding: 20px;
-    width: 150px;
+    width: 250px;
     border: 5px dotted #708090;
     margin-left: 10px;
     position: relative;
@@ -196,7 +218,7 @@ p.app-title {
     position: absolute;
     color: #9c9c9c;
     font-weight: 700;
-    font-size: 7pt;
+    font-size: 11pt;
     left: 40px;
     top: 5px;
     width: 100%;
@@ -204,19 +226,19 @@ p.app-title {
 
 p.app-metric {
     position: absolute;
-    font-size: 13pt;
+    font-size: 16pt;
     color: #81b9cb;
     font-weight: 800;
-    bottom: 0px;
+    bottom: -4px;
     left: 45px;
 }
 
 div#app_connector {
-    width: 24px;
+    width: 60px;
     height: 105px;
     position: absolute;
     top: 87px;
-    left: 120px;
+    left: 170px;
     border-right: 2px solid #009688;
     z-index: 0;
 }
@@ -228,14 +250,14 @@ div#app_connector .line1,div#app_connector .line2, div#app_connector .line3 {
 
 div#app_connector .line4 {
     border-top: 2px solid #009688;
-    width: 188px;
+    width: 250px;
     position: absolute;
-    top: 51px;
-    left: 25px;
+    top: 52px;
+    left: 62px;
 }
 
 .section.infra-set2 .line1 { /*to fix alignmen issue*/
-    height: 49px !important;
+    height: 50px !important;
 }
 
 h2.infra-head {
@@ -314,18 +336,19 @@ div#sidecontent2 {
     border-radius: 4px;
     box-shadow: 1px 1px 5px 0px #000;
     margin-left: 10px;
-    margin-top: 5px;
+    margin-top: 10px;
     cursor: pointer;
 }
 
 .sc-item-metrics p {
-    font-size: 8pt;
+    font-size: 16pt;
     text-align: center;
+    line-height: 1.5em;
 }
 
 .sc-item-metrics h2 {
     font-weight: 900;
-    font-size: 2.2em;
+    font-size: 3.2em;
     line-height: 1em;
     text-align: center;
 }

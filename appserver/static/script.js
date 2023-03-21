@@ -197,11 +197,13 @@ require([
         const title = data[index].title
         const infra = data[index].infra
         infraHandler(infra)
-        $("#sidecontent1 .content-header").text(title)
 
         // KPI Sub Process 
-        const kpi_title = data[index]["sub-process"].title
-        $("#sidecontent1 .kpi-title")[0].innerText = kpi_title
+        let kpi_title = data[index]["sub-process"].title
+        if(kpi_title != ""){
+            kpi_title = ": "+kpi_title
+        }
+        $("#sidecontent1 .content-header").html(`${title} ${kpi_title}`)
 
         const subArr = data[index]["sub-process"]["panels"]
         $("#sidecontent1 .sc-item").html("")
