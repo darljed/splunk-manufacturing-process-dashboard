@@ -59,10 +59,10 @@ table.table tbody td {
 .custom-title-header h2 {
     font-size: 2em;
     margin: 17px;
-    margin-right: 45px;
+    margin-left: 45px;
     font-weight: 900;
-    color: #cfc359;
-    text-align: right;
+    color: #fff;
+    text-align: left;
 }
 
 .section {
@@ -158,7 +158,7 @@ div#sidecontent1 .content-header {
     color: #69eee3;
 }
 h3.content-header {
-    font-size: 14pt;
+    font-size: 20pt;
     color: #69eee3;
 }
 /* infra  */
@@ -341,14 +341,14 @@ div#sidecontent2 {
 }
 
 .sc-item-metrics p {
-    font-size: 16pt;
+    font-size: 13pt;
     text-align: center;
     line-height: 1.5em;
 }
 
 .sc-item-metrics h2 {
     font-weight: 900;
-    font-size: 3.2em;
+    font-size: 2.2em;
     line-height: 1em;
     text-align: center;
 }

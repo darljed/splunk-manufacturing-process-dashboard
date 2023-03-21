@@ -39,12 +39,12 @@ require([
                         {
                             "title":"Overproduction",
                             "value":29,
-                            "color":"red"
+                            "color":"green"
                         },
                         {
                             "title":"Underproduction",
                             "value":2,
-                            "color":"amber"
+                            "color":"green"
                         }
                     ]
                 }
@@ -60,22 +60,22 @@ require([
                         {
                             "title":"Supply Chain Cycle Time",
                             "value":"2 Days",
-                            "color":"gray"
+                            "color":"green"
                         },
                         {
                             "title":"overdue Purchase Order Items",
                             "value":37,
-                            "color":"red"
+                            "color":"green"
                         },
                         {
                             "title":"Purchase order rejections",
                             "value":"2%",
-                            "color":"amber"
+                            "color":"green"
                         },
                         {
                             "title":"Ordered Items",
                             "value":"9554",
-                            "color":"gray"
+                            "color":"green"
                         },
                         {
                             "title":"Delivered Items",
@@ -112,7 +112,7 @@ require([
                         {
                             "title":"Cost Increase",
                             "value":"2%",
-                            "color":"gray"
+                            "color":"green"
                         }
                     ]
                 }
@@ -128,7 +128,7 @@ require([
                         {
                             "title":"Rejected Products",
                             "value":"1.2%",
-                            "color":"green"
+                            "color":"red"
                         }
                     ]
                 }
@@ -144,12 +144,12 @@ require([
                         {
                             "title":"Delivered",
                             "value":"89%",
-                            "color":"amber"
+                            "color":"green"
                         },
                         {
                             "title":"Delayed",
                             "value":"3.7%",
-                            "color":"amber"
+                            "color":"green"
                         }
                     ]
                 }
@@ -203,7 +203,7 @@ require([
         if(kpi_title != ""){
             kpi_title = ": "+kpi_title
         }
-        $("#sidecontent1 .content-header").html(`${title} ${kpi_title}`)
+        $("#sidecontent1 .content-header").html(`${title} <span style='color: #fff'>${kpi_title}</span>`)
 
         const subArr = data[index]["sub-process"]["panels"]
         $("#sidecontent1 .sc-item").html("")
