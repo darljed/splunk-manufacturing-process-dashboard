@@ -1,169 +1,464 @@
 <dashboard stylesheet="style.css,fontawesome/css/fontawesome.min.css" script="script.js,fontawesome/js/fontawesome.min.js">
   <label>Manufacturing Process Dashboard</label>
   <row>
-    <html>
+    <panel>
+      <html>
       <div class="section">
         <div class="process-control">
-          <div class="kpi-handle">
-            
-            <div class="kpi-handle-item">
-              <div class="kpi-item red"></div>
-              <div class="kpi-item amber"></div>
-              <div class="kpi-item green"></div>
-            </div>
-            
-            <div class="kpi-handle-item">
-              <div class="kpi-item red"></div>
-              <div class="kpi-item green"></div>
-            </div>
-            
-            <div class="kpi-handle-item">
-              <div class="kpi-item amber"></div>
-              <div class="kpi-item green"></div>
-            </div>
-            
-            <div class="kpi-handle-item">
-              <div class="kpi-item green"></div>
-            </div>
-            
-            <div class="kpi-handle-item">
-              <div class="kpi-item green"></div>
-              <div class="kpi-item green"></div>
-            </div>
-            
-            <div class="kpi-handle-item">
-              <div class="kpi-item amber"></div>
-              <div class="kpi-item red"></div>
-            </div>
-            
-            <div class="kpi-handle-item">
-              <div class="kpi-item green"></div>
-            </div>
-            
-          </div>
           <div class="process-control-handle">
             
-            <div class="pc-item-mark">
+            <div class="pc-item-mark" data-item="0">
               <div class="pc-item-arrow">
-                <div class="pc-item-arrow-item arrow-top amber"></div>
-                <div class="pc-item-arrow-item arrow-bot amber"></div>
+                <div class="pc-item-arrow-item arrow-top amber"/>
+                <div class="pc-item-arrow-item arrow-bot amber"/>
               </div>
               <div class="pc-item-icon">
-                <p><i class="icon icon-lightning"></i></p>
+                <p>
+                    <i class="icon icon-lightning"/>
+                  </p>
               </div>
               <div class="pc-item-content-master">
                 <h4 class="pc-item-content">80</h4>
               </div>
               <div class="pc-item-title">
-                <h3>Lorem Ipsum</h3>
+                <h3>Capture Customer Demand</h3>
               </div>
             </div>
             
             
-            <div class="pc-item-mark">
+            <div class="pc-item-mark" data-item="1">
               <div class="pc-item-arrow">
-                <div class="pc-item-arrow-item arrow-top"></div>
-                <div class="pc-item-arrow-item arrow-bot"></div>
+                <div class="pc-item-arrow-item arrow-top"/>
+                <div class="pc-item-arrow-item arrow-bot"/>
               </div>
               <div class="pc-item-icon">
-                <p><i class="icon icon-bell"></i></p>
+                <p>
+                    <i class="icon icon-bell"/>
+                  </p>
               </div>
               <div class="pc-item-content-master">
                 <h4 class="pc-item-content">97</h4>
               </div>
               <div class="pc-item-title">
-                <h3>Lorem Ipsum Sit Amet Dolor 123</h3>
+                <h3>Product Planning</h3>
               </div>
             </div>
             
             
-            <div class="pc-item-mark">
+            <div class="pc-item-mark" data-item="2">
               <div class="pc-item-arrow">
-                <div class="pc-item-arrow-item arrow-top green"></div>
-                <div class="pc-item-arrow-item arrow-bot green"></div>
+                <div class="pc-item-arrow-item arrow-top green"/>
+                <div class="pc-item-arrow-item arrow-bot green"/>
               </div>
               <div class="pc-item-icon">
-                <p><i class="icon icon-bookmark"></i></p>
+                <p>
+                    <i class="icon icon-bookmark"/>
+                  </p>
               </div>
               <div class="pc-item-content-master">
                 <h4 class="pc-item-content">100</h4>
               </div>
               <div class="pc-item-title">
-                <h3>Lorem Ipsum</h3>
+                <h3>Procure Materials / Harvest KPI</h3>
               </div>
             </div>
             
             
-            <div class="pc-item-mark">
+            <div class="pc-item-mark" data-item="3">
               <div class="pc-item-arrow">
-                <div class="pc-item-arrow-item arrow-top"></div>
-                <div class="pc-item-arrow-item arrow-bot"></div>
+                <div class="pc-item-arrow-item arrow-top"/>
+                <div class="pc-item-arrow-item arrow-bot"/>
               </div>
               <div class="pc-item-icon">
-                <p><i class="icon icon-bulb"></i></p>
+                <p>
+                    <i class="icon icon-bulb"/>
+                  </p>
               </div>
               <div class="pc-item-content-master">
                 <h4 class="pc-item-content">100</h4>
               </div>
               <div class="pc-item-title">
-                <h3>Lorem Ipsum Sit Amet 123</h3>
+                <h3>Production</h3>
               </div>
             </div>
             
             
-            <div class="pc-item-mark">
+            <div class="pc-item-mark" data-item="4">
               <div class="pc-item-arrow">
-                <div class="pc-item-arrow-item arrow-top"></div>
-                <div class="pc-item-arrow-item arrow-bot"></div>
+                <div class="pc-item-arrow-item arrow-top"/>
+                <div class="pc-item-arrow-item arrow-bot"/>
               </div>
               <div class="pc-item-icon">
-                <p><i class="icon icon-check"></i></p>
+                <p>
+                    <i class="icon icon-check"/>
+                  </p>
               </div>
               <div class="pc-item-content-master">
                 <h4 class="pc-item-content">100</h4>
               </div>
               <div class="pc-item-title">
-                <h3>Lorem Ipsum Sit Amet Dolor</h3>
+                <h3>Capture Cost</h3>
               </div>
             </div>
             
             
-            <div class="pc-item-mark">
+            <div class="pc-item-mark" data-item="5">
               <div class="pc-item-arrow">
-                <div class="pc-item-arrow-item arrow-top red"></div>
-                <div class="pc-item-arrow-item arrow-bot red"></div>
+                <div class="pc-item-arrow-item arrow-top red"/>
+                <div class="pc-item-arrow-item arrow-bot red"/>
               </div>
               <div class="pc-item-icon">
-                <p><i class="icon icon-gear"></i></p>
+                <p>
+                    <i class="icon icon-gear"/>
+                  </p>
               </div>
               <div class="pc-item-content-master">
                 <h4 class="pc-item-content">52</h4>
               </div>
               <div class="pc-item-title">
-                <h3>Lorem Ipsum Sit</h3>
+                <h3>Quality Control</h3>
               </div>
             </div>
             
             
-            <div class="pc-item-mark">
+            <div class="pc-item-mark" data-item="6">
               <div class="pc-item-arrow">
-                <div class="pc-item-arrow-item arrow-top"></div>
-                <div class="pc-item-arrow-item arrow-bot"></div>
+                <div class="pc-item-arrow-item arrow-top"/>
+                <div class="pc-item-arrow-item arrow-bot"/>
               </div>
               <div class="pc-item-icon">
-                <p><i class="icon icon-flag"></i></p>
+                <p>
+                    <i class="icon icon-flag"/>
+                  </p>
               </div>
               <div class="pc-item-content-master">
                 <h4 class="pc-item-content">99</h4>
               </div>
               <div class="pc-item-title">
-                <h3>Lorem Ipsum Sit Amet</h3>
+                <h3>Warehouse Distribution</h3>
               </div>
             </div>
             
           </div>
         </div>
       </div>
+      <div class="section infra-set1">
+        <div class="infra-diagram">
+          <div class="application no-border">
+            <h2 class="infra-head">Client</h2>
+            <div class="application-item">
+              <span>
+                  <i class="icon icon-user"/>
+                </span>
+              <p class="app-title">Individual</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div class="application-item invisible">
+              <span>
+                  <i class="icon icon-star"/>
+                </span>
+              <p class="app-title">Retailers</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div class="application-item">
+              <span>
+                  <i class="icon icon-star"/>
+                </span>
+              <p class="app-title">Retailers</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div id="app_connector">
+              <div class="line1"/>
+              <div class="line2 invisible"/>
+              <div class="line3"/>
+              <div class="line4"/>
+            </div>
+          </div>
+          
+          
+          <div class="application no-right-border">
+            <h2 class="infra-head">Application</h2>
+            <div class="application-item">
+              <span>
+                  <i class="icon icon-distributed-environment"/>
+                </span>
+              <p class="app-title">Application 1</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div class="application-item" id="app2">
+              <span>
+                  <i class="icon icon-distributed-environment"/>
+                </span>
+              <p class="app-title">Application 2</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div class="application-item" id="app3">
+              <span>
+                  <i class="icon icon-distributed-environment"/>
+                </span>
+              <p class="app-title">Application 3</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div id="app_connector">
+              <div class="line1"/>
+              <div class="line2"/>
+              <div class="line3"/>
+              <div class="line4"/>
+            </div>
+          </div>
+          
+          
+          <div class="application no-right-border no-left-border">
+            <h2 class="infra-head">Servers</h2>
+            <div class="application-item">
+              <span>
+                  <i class="icon icon-gauge-radial"/>
+                </span>
+              <p class="app-title">Server 1</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div class="application-item invisible" id="app2">
+              <span>
+                  <i class="icon icon-gauge-radial"/>
+                </span>
+              <p class="app-title">Server 2</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div class="application-item" id="app3">
+              <span>
+                  <i class="icon icon-gauge-radial"/>
+                </span>
+              <p class="app-title">Server 2</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div id="app_connector">
+              <div class="line1"/>
+              <div class="line2"/>
+              <div class="line3"/>
+              <div class="line4"/>
+            </div>
+          </div>
+          
+          <div class="application no-left-border">
+            <h2 class="infra-head">Database</h2>
+            <div class="application-item">
+              <span>
+                  <i class="icon icon-data"/>
+                </span>
+              <p class="app-title">Database 1</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div class="application-item" id="app2">
+              <span>
+                  <i class="icon icon-data"/>
+                </span>
+              <p class="app-title">Database 2</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div class="application-item" id="app3">
+              <span>
+                  <i class="icon icon-data"/>
+                </span>
+              <p class="app-title">Database 3</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div id="app_connector">
+              <div class="line1"/>
+              <div class="line2"/>
+              <div class="line3"/>
+              <!--<div class="line4"></div>-->
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="section infra-set2">
+        <div class="infra-diagram">
+          
+          
+          <div class="application no-border">
+            <h2 class="infra-head">Client</h2>
+            <div class="application-item">
+              <span>
+                  <i class="icon icon-user"/>
+                </span>
+              <p class="app-title">Individual</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div class="application-item invisible">
+              <span>
+                  <i class="icon icon-star"/>
+                </span>
+              <p class="app-title">Retailers</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div class="application-item">
+              <span>
+                  <i class="icon icon-star"/>
+                </span>
+              <p class="app-title">Retailers</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div id="app_connector">
+              <div class="line1"/>
+              <div class="line2 invisible"/>
+              <div class="line3"/>
+              <div class="line4"/>
+            </div>
+          </div>
+          
+          
+          <div class="application">
+            <h2 class="infra-head">Application</h2>
+            <div class="application-item">
+              <span>
+                  <i class="icon icon-distributed-environment"/>
+                </span>
+              <p class="app-title">Application 1</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div class="application-item invisible" id="app2">
+              <span>
+                  <i class="icon icon-distributed-environment"/>
+                </span>
+              <p class="app-title">Application 2</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div class="application-item" id="app3">
+              <span>
+                  <i class="icon icon-distributed-environment"/>
+                </span>
+              <p class="app-title">Application 3</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div id="app_connector">
+              <div class="line1"/>
+              <div class="line2"/>
+              <div class="line3"/>
+              <div class="line4"/>
+            </div>
+          </div>
+          
+          
+          <div class="application">
+            <h2 class="infra-head">Servers</h2>
+            <div class="application-item">
+              <span>
+                  <i class="icon icon-gauge-radial"/>
+                </span>
+              <p class="app-title">Server 1</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div class="application-item" id="app2">
+              <span>
+                  <i class="icon icon-gauge-radial"/>
+                </span>
+              <p class="app-title">Server 2</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div class="application-item" id="app3">
+              <span>
+                  <i class="icon icon-gauge-radial"/>
+                </span>
+              <p class="app-title">Server 3</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div id="app_connector">
+              <div class="line1"/>
+              <div class="line2"/>
+              <div class="line3"/>
+              <div class="line4"/>
+            </div>
+          </div>
+          
+          <div class="application">
+            <h2 class="infra-head">Database</h2>
+            <div class="application-item">
+              <span>
+                  <i class="icon icon-data"/>
+                </span>
+              <p class="app-title">Database 1</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div class="application-item invisible" id="app2">
+              <span>
+                  <i class="icon icon-data"/>
+                </span>
+              <p class="app-title">Database 2</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div class="application-item" id="app3">
+              <span>
+                  <i class="icon icon-data"/>
+                </span>
+              <p class="app-title">Database 3</p>
+              <p class="app-metric">100</p>
+            </div>
+            <div id="app_connector">
+              <div class="line1"/>
+              <div class="line2"/>
+              <div class="line3"/>
+              <!--<div class="line4"></div>-->
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class="sidebar-drilldown">
+        <div class="sidebar-overlay"/>
+        <div class="sidebar-content">
+          <span class="sidebar-collapse">
+              <i class="icon icon-chevron-down"/>
+            </span>
+          <div class="sidebar-content">
+            
+            <div class="content-item hide" id="sidecontent2">
+              <h3 class="content-header">Sub Process Logs</h3>
+              <div id="table_content"/>
+            </div>
+            <div class="content-item" id="sidecontent1">
+              <h3 class="content-header">Sub Processes</h3>
+              <div class="side-content-kpi">
+                <p class="kpi-title">KPI Title</p>
+                <div class="sc-item">
+                  
+                  <div class="sc-item-metrics">
+                    <p>Metrics Title</p>
+                    <h2>100/100</h2>
+                  </div>
+                  
+                  <div class="sc-item-metrics">
+                    <p>Metrics Title</p>
+                    <h2>100/100</h2>
+                  </div>
+                  
+                  <div class="sc-item-metrics">
+                    <p>Metrics Title</p>
+                    <h2>100/100</h2>
+                  </div>
+                  
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
     </html>
+    </panel>
+  </row>
+  <row depends="$hide$">
+    <panel>
+      <table>
+        <search id="table1_search">
+          <query>index=_internal |stats count by component | rename component as Components, count as Count</query>
+          <earliest>-15m</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
   </row>
 </dashboard>
