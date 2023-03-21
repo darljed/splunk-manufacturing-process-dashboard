@@ -14,7 +14,7 @@
               </div>
               <div class="pc-item-icon">
                 <p>
-                    <i class="icon icon-lightning"/>
+                    <i class="icon icon-user"/>
                   </p>
               </div>
               <div class="pc-item-content-master">
@@ -33,7 +33,7 @@
               </div>
               <div class="pc-item-icon">
                 <p>
-                    <i class="icon icon-bell"/>
+                    <i class="icon icon-bar-beside"/>
                   </p>
               </div>
               <div class="pc-item-content-master">
@@ -52,7 +52,7 @@
               </div>
               <div class="pc-item-icon">
                 <p>
-                    <i class="icon icon-bookmark"/>
+                    <i class="icon icon-bell"/>
                   </p>
               </div>
               <div class="pc-item-content-master">
@@ -71,7 +71,7 @@
               </div>
               <div class="pc-item-icon">
                 <p>
-                    <i class="icon icon-bulb"/>
+                    <i class="icon icon-distributed-environment"/>
                   </p>
               </div>
               <div class="pc-item-content-master">
@@ -90,7 +90,7 @@
               </div>
               <div class="pc-item-icon">
                 <p>
-                    <i class="icon icon-check"/>
+                    <i class="icon icon-missing-value-zero"/>
                   </p>
               </div>
               <div class="pc-item-content-master">
@@ -109,7 +109,7 @@
               </div>
               <div class="pc-item-icon">
                 <p>
-                    <i class="icon icon-gear"/>
+                    <i class="icon icon-check"/>
                   </p>
               </div>
               <div class="pc-item-content-master">
@@ -128,7 +128,7 @@
               </div>
               <div class="pc-item-icon">
                 <p>
-                    <i class="icon icon-flag"/>
+                    <i class="icon icon-chart-bubble"/>
                   </p>
               </div>
               <div class="pc-item-content-master">
