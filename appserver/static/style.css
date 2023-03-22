@@ -1,6 +1,6 @@
 :root{
-    --red: #e49997;
-    --amber: #d0af7f;
+    --red: #d1423f;
+    --amber: #ffc107;
     --green: #82b685;
     --side-height: 30vh;
 }
@@ -92,7 +92,13 @@ table.table tbody td {
     padding: 0;
     margin: 0;
     text-align: center;
-    color: #ffc107;
+    color: #d2d1cf;
+}
+
+.pc-item-title h3.active {
+    color: #2196F3;
+    font-weight: 900;
+    font-size: 1.4em;
 }
 
 .pc-item-arrow {
@@ -160,6 +166,9 @@ div#sidecontent1 .content-header {
 h3.content-header {
     font-size: 20pt;
     color: #69eee3;
+}
+h3.content-header span {
+    color: #fff;
 }
 /* infra  */
 .infra-diagram {
@@ -338,12 +347,19 @@ div#sidecontent2 {
     margin-left: 10px;
     margin-top: 10px;
     cursor: pointer;
+    width: 200px;
+
+}
+
+.sc-item-metrics.active {
+    border: 4px solid white;
 }
 
 .sc-item-metrics p {
     font-size: 13pt;
     text-align: center;
     line-height: 1.5em;
+    text-transform: capitalize;
 }
 
 .sc-item-metrics h2 {

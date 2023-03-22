@@ -417,7 +417,7 @@
           <div class="sidebar-content">
             
             <div class="content-item hide" id="sidecontent2">
-              <h3 class="content-header">Log Details</h3>
+              <h3 class="content-header">Log Details : <span id="sub_process_selected"></span></h3>
               <div id="table_content"/>
             </div>
             <div class="content-item" id="sidecontent1">

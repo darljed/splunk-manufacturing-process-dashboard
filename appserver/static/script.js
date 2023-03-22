@@ -58,28 +58,28 @@ require([
                     "title":"Capacity Planning",
                     "panels":[
                         {
-                            "title":"Supply Chain Cycle Time",
+                            "title":"Supply Cycle Time",
                             "value":"2 Days",
                             "color":"green"
                         },
                         {
-                            "title":"overdue Purchase Order Items",
+                            "title":"Overdue PO",
                             "value":37,
                             "color":"green"
                         },
                         {
-                            "title":"Purchase order rejections",
+                            "title":"PO Rejections",
                             "value":"2%",
                             "color":"green"
                         },
                         {
                             "title":"Ordered Items",
-                            "value":"9554",
+                            "value":"9,554",
                             "color":"green"
                         },
                         {
                             "title":"Delivered Items",
-                            "value":"9442",
+                            "value":"9,442",
                             "color":"green"
                         }
                     ]
@@ -127,7 +127,7 @@ require([
                     "panels":[
                         {
                             "title":"Rejected Products",
-                            "value":"1.2%",
+                            "value":"9.2%",
                             "color":"red"
                         }
                     ]
@@ -171,12 +171,22 @@ require([
             $("#sidecontent2").hide()
             let item_idx=parseInt($(this).data('item'))
             fillSidebar(item_idx)
+
+            //change colors upon selection
+            $(".pc-item-title h3.active").removeClass("active")
+            $(this).children(".pc-item-title").children("h3").addClass("active")
         })
         $(document).on("click",".sc-item-metrics",function(){
             $("#sidecontent2").hide()
             $("#sidecontent2").slideDown(300)
             search.startSearch()
-            console.log("Clicked")
+            
+            const title = $(this).data('title')
+            $("#sub_process_selected").text(title)
+
+            // highlight on active
+            $(".sc-item-metrics.active").removeClass("active")
+            $(this).addClass("active")
         })
 
         // Splunk Components 
@@ -209,7 +219,7 @@ require([
         $("#sidecontent1 .sc-item").html("")
         subArr.forEach(element => {
             $("#sidecontent1 .sc-item").append(`
-            <div class="sc-item-metrics ${element.color}">
+            <div data-title="${element.title}" class="sc-item-metrics ${element.color}">
                 <p>${element.title}</p>
                 <h2>${element.value}</h2>
             </div>`)
