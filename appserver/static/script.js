@@ -65,22 +65,17 @@ require([
                         {
                             "title":"Overdue PO",
                             "value":37,
-                            "color":"green"
+                            "color":"red"
                         },
                         {
                             "title":"PO Rejections",
                             "value":"2%",
-                            "color":"green"
+                            "color":"amber"
                         },
                         {
-                            "title":"Ordered Items",
-                            "value":"9,554",
-                            "color":"green"
-                        },
-                        {
-                            "title":"Delivered Items",
-                            "value":"9,442",
-                            "color":"green"
+                            "title":"Ordered / Received Items",
+                            "value":"5%",
+                            "color":"red"
                         }
                     ]
                 }
@@ -95,8 +90,8 @@ require([
                     "panels":[
                         {
                             "title":"Supply/Demand",
-                            "value":"99/100",
-                            "color":"green"
+                            "value":"60%",
+                            "color":"red"
                         }
                     ]
                 }
@@ -144,12 +139,12 @@ require([
                         {
                             "title":"Delivered",
                             "value":"89%",
-                            "color":"green"
+                            "color":"red"
                         },
                         {
                             "title":"Delayed",
-                            "value":"3.7%",
-                            "color":"green"
+                            "value":"11%",
+                            "color":"red"
                         }
                     ]
                 }

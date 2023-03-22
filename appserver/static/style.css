@@ -35,6 +35,10 @@ table.table tbody td {
     color: #fff !important;
 }
 
+.dashboard-title {
+    display: none;
+}
+
 /* Splunk Custom End */
 
 .red {

@@ -1,4 +1,4 @@
-<dashboard stylesheet="style.css,fontawesome/css/fontawesome.min.css" script="script.js,fontawesome/js/fontawesome.min.js">
+<dashboard stylesheet="style.css,fontawesome/css/fontawesome.min.css" script="script.js,fontawesome/js/fontawesome.min.js" hideEdit="true">
   <label>Manufacturing Process Dashboard</label>
   <row>
     <panel>
@@ -50,8 +50,8 @@
             
             <div class="pc-item-mark" data-item="2">
               <div class="pc-item-arrow">
-                <div class="pc-item-arrow-item arrow-top green"/>
-                <div class="pc-item-arrow-item arrow-bot green"/>
+                <div class="pc-item-arrow-item arrow-top red"/>
+                <div class="pc-item-arrow-item arrow-bot red"/>
               </div>
               <div class="pc-item-icon">
                 <p>
@@ -59,18 +59,18 @@
                   </p>
               </div>
               <div class="pc-item-content-master">
-                <h4 class="pc-item-content">100</h4>
+                <h4 class="pc-item-content">40</h4>
               </div>
               <div class="pc-item-title">
-                <h3>Procure Materials / Harvest KPI</h3>
+                <h3>Procure Materials / Harvest</h3>
               </div>
             </div>
             
             
             <div class="pc-item-mark" data-item="3">
               <div class="pc-item-arrow">
-                <div class="pc-item-arrow-item arrow-top green"/>
-                <div class="pc-item-arrow-item arrow-bot green"/>
+                <div class="pc-item-arrow-item arrow-top red"/>
+                <div class="pc-item-arrow-item arrow-bot red"/>
               </div>
               <div class="pc-item-icon">
                 <p>
@@ -78,7 +78,7 @@
                   </p>
               </div>
               <div class="pc-item-content-master">
-                <h4 class="pc-item-content">100</h4>
+                <h4 class="pc-item-content">60</h4>
               </div>
               <div class="pc-item-title">
                 <h3>Production</h3>
@@ -126,8 +126,8 @@
             
             <div class="pc-item-mark" data-item="6">
               <div class="pc-item-arrow">
-                <div class="pc-item-arrow-item arrow-top green"/>
-                <div class="pc-item-arrow-item arrow-bot green"/>
+                <div class="pc-item-arrow-item arrow-top red"/>
+                <div class="pc-item-arrow-item arrow-bot red"/>
               </div>
               <div class="pc-item-icon">
                 <p>
@@ -135,7 +135,7 @@
                   </p>
               </div>
               <div class="pc-item-content-master">
-                <h4 class="pc-item-content">99</h4>
+                <h4 class="pc-item-content">89</h4>
               </div>
               <div class="pc-item-title">
                 <h3>Warehouse Distribution</h3>
