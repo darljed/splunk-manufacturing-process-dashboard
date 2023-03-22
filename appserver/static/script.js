@@ -73,8 +73,8 @@ require([
                             "color":"amber"
                         },
                         {
-                            "title":"Ordered / Received Items",
-                            "value":"5%",
+                            "title":"Received/Ordered Items",
+                            "value":"50%",
                             "color":"red"
                         }
                     ]
