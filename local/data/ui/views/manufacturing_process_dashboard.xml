@@ -142,6 +142,24 @@
               </div>
             </div>
             
+            <div class="pc-item-mark" data-item="7">
+              <div class="pc-item-arrow">
+                <div class="pc-item-arrow-item arrow-top amber"/>
+                <div class="pc-item-arrow-item arrow-bot amber"/>
+              </div>
+              <div class="pc-item-icon">
+                <p>
+                    <i class="icon icon-two-arrows-cycle"/>
+                  </p>
+              </div>
+              <div class="pc-item-content-master">
+                <h4 class="pc-item-content">94</h4>
+              </div>
+              <div class="pc-item-title">
+                <h3>Supplier Collaboration</h3>
+              </div>
+            </div>
+            
           </div>
         </div>
       </div>

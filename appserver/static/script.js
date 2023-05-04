@@ -24,6 +24,21 @@ require([
                             "title":"Actual Delivery",
                             "value":377,
                             "color":"amber"
+                        },
+                        {
+                            "title":"Perfect Order Performance",
+                            "value":"90%",
+                            "color":"green"
+                        },
+                        {
+                            "title":"Customer Order Cycle Time",
+                            "value":"7 Days",
+                            "color":"amber"
+                        },
+                        {
+                            "title":"OTIF",
+                            "value":"91%",
+                            "color":"green"
                         }
                     ]
                 }
@@ -44,6 +59,16 @@ require([
                         {
                             "title":"Underproduction",
                             "value":2,
+                            "color":"green"
+                        },
+                        {
+                            "title":"Forecast Accuracy %",
+                            "value":"85%",
+                            "color":"green"
+                        },
+                        {
+                            "title":"Inventory Accuracy %",
+                            "value":"96.7%",
                             "color":"green"
                         }
                     ]
@@ -76,6 +101,16 @@ require([
                             "title":"Received/Ordered Items",
                             "value":"50%",
                             "color":"red"
+                        },
+                        {
+                            "title":"Avg Procure-to-pay cycle time",
+                            "value":"60 Days",
+                            "color":"amber"
+                        },
+                        {
+                            "title":"Avg supplier lead time",
+                            "value":"10 Days",
+                            "color":"green"
                         }
                     ]
                 }
@@ -92,6 +127,21 @@ require([
                             "title":"Supply/Demand",
                             "value":"60%",
                             "color":"red"
+                        },
+                        {
+                            "title":"OEE",
+                            "value":"NA",
+                            "color":"gray"
+                        },
+                        {
+                            "title":"Unplanned Machine Downtime",
+                            "value":"5%",
+                            "color":"amber"
+                        },
+                        {
+                            "title":"Prod Material Handling vs Materials Cost",
+                            "value":"1%",
+                            "color":"green"
                         }
                     ]
                 }
@@ -150,6 +200,26 @@ require([
                 }
             
         },
+        {
+            "title":"Supplier Collaboration",
+            "infra":"set2",
+            'sub-process':
+                {
+                    "title":"",
+                    "panels":[
+                        {
+                            "title":"Cycle Time to Place PO",
+                            "value":"24 hrs",
+                            "color":"green"
+                        },
+                        {
+                            "title":"% of PO Approved Electronically",
+                            "value":"81%",
+                            "color":"amber"
+                        }
+                    ]
+                }
+        }
     ]
 
 
@@ -164,6 +234,7 @@ require([
         $(".pc-item-mark").on('click',function(){
             $(".sidebar-drilldown").fadeIn(300)
             $("#sidecontent2").hide()
+            $("#sidecontent1").addClass('active')
             let item_idx=parseInt($(this).data('item'))
             fillSidebar(item_idx)
 
@@ -174,6 +245,7 @@ require([
         $(document).on("click",".sc-item-metrics",function(){
             $("#sidecontent2").hide()
             $("#sidecontent2").slideDown(300)
+            $("#sidecontent1").removeClass('active')
             search.startSearch()
             
             const title = $(this).data('title')

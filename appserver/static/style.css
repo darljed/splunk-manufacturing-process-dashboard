@@ -167,9 +167,13 @@ div#sidecontent1 .content-header {
     font-size: 20pt;
     color: #69eee3;
 }
+div#sidecontent1.active {
+    width: 100%;
+}
 h3.content-header {
     font-size: 20pt;
     color: #69eee3;
+    line-height: 1em;
 }
 h3.content-header span {
     color: #fff;
@@ -307,7 +311,7 @@ h2.infra-head {
     left: 0;
     bottom: 0;
     height: var(--side-height);
-    min-height: 300px;
+    min-height: 350px;
     background: #201f1f;
     display: flex;
     box-shadow: 0px 2px 12px 4px #000;
@@ -335,6 +339,7 @@ div#sidecontent2 {
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
+    max-height: 250px;
     overflow-y: auto;
 }
 
